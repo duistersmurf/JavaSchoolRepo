@@ -1,0 +1,13 @@
+package com.myfirst.wsServer;
+
+import javax.jws.WebService;
+
+public class FirstWS {
+	
+	private static final String SALUTATION = "hello";
+	
+	public  String getGreeting (String name)	 {
+		return SALUTATION + " " + name;
+	}
+
+}

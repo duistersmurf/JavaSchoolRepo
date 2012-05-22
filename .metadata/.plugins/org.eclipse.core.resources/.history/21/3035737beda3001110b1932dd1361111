@@ -1,0 +1,13 @@
+<project default="wsgen">
+
+ <target name="wsgen" >
+  
+  <exec executable="C:\java\jdk1.7.0_02\bin\wsgen">
+     
+   <arg line="-cp .\bin -keep -s .\src -d .\bin com.myfirst.wsServer.FirstWS"/>
+     
+  </exec>
+     
+ </target>
+
+</project>
