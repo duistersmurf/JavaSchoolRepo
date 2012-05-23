@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;bookshelf.xml&apos; to &apos;xmlparseroef/src/parser&apos;&#x0D;&#x0A;- Original project: &apos;xmlparseroef&apos;&#x0D;&#x0A;- Destination element: &apos;xmlparseroef/src/parser&apos;&#x0D;&#x0A;- Original element: &apos;bookshelf.xml&apos;" description="Copy file" destination="/src&lt;parser" element1="src/parser/bookshelf.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1337766907922" units="0" version="1.0"/>
+</session>

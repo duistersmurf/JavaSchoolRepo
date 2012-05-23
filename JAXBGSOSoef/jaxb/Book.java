@@ -1,0 +1,387 @@
+/*
+ * This class was automatically generated with 
+ * <a href="http://www.castor.org">Castor 1.3.1</a>, using an XML
+ * Schema.
+ * $Id$
+ */
+
+/**
+ * Class Book.
+ * 
+ * @version $Revision$ $Date$
+ */
+@SuppressWarnings("serial")
+public class Book implements java.io.Serializable {
+
+
+      //--------------------------/
+     //- Class/Member Variables -/
+    //--------------------------/
+
+    /**
+     * Field _title.
+     */
+    private java.lang.String _title;
+
+    /**
+     * Field _subTitle.
+     */
+    private java.lang.String _subTitle;
+
+    /**
+     * Field _isbn10.
+     */
+    private long _isbn10;
+
+    /**
+     * keeps track of state for field: _isbn10
+     */
+    private boolean _has_isbn10;
+
+    /**
+     * Field _isbn13.
+     */
+    private java.lang.String _isbn13;
+
+    /**
+     * Field _language.
+     */
+    private types.LanguageType _language;
+
+    /**
+     * Field _paperback.
+     */
+    private boolean _paperback;
+
+    /**
+     * keeps track of state for field: _paperback
+     */
+    private boolean _has_paperback;
+
+    /**
+     * Field _pageCount.
+     */
+    private long _pageCount;
+
+    /**
+     * keeps track of state for field: _pageCount
+     */
+    private boolean _has_pageCount;
+
+    /**
+     * Field _publisher.
+     */
+    private java.lang.String _publisher;
+
+    /**
+     * Field _image.
+     */
+    private java.lang.String _image;
+
+    /**
+     * Field _weight.
+     */
+    private double _weight;
+
+    /**
+     * keeps track of state for field: _weight
+     */
+    private boolean _has_weight;
+
+
+      //----------------/
+     //- Constructors -/
+    //----------------/
+
+    public Book() {
+        super();
+    }
+
+
+      //-----------/
+     //- Methods -/
+    //-----------/
+
+    /**
+     */
+    public void deleteIsbn10(
+    ) {
+        this._has_isbn10= false;
+    }
+
+    /**
+     */
+    public void deletePageCount(
+    ) {
+        this._has_pageCount= false;
+    }
+
+    /**
+     */
+    public void deletePaperback(
+    ) {
+        this._has_paperback= false;
+    }
+
+    /**
+     */
+    public void deleteWeight(
+    ) {
+        this._has_weight= false;
+    }
+
+    /**
+     * Returns the value of field 'image'.
+     * 
+     * @return the value of field 'Image'.
+     */
+    public java.lang.String getImage(
+    ) {
+        return this._image;
+    }
+
+    /**
+     * Returns the value of field 'isbn10'.
+     * 
+     * @return the value of field 'Isbn10'.
+     */
+    public long getIsbn10(
+    ) {
+        return this._isbn10;
+    }
+
+    /**
+     * Returns the value of field 'isbn13'.
+     * 
+     * @return the value of field 'Isbn13'.
+     */
+    public java.lang.String getIsbn13(
+    ) {
+        return this._isbn13;
+    }
+
+    /**
+     * Returns the value of field 'language'.
+     * 
+     * @return the value of field 'Language'.
+     */
+    public types.LanguageType getLanguage(
+    ) {
+        return this._language;
+    }
+
+    /**
+     * Returns the value of field 'pageCount'.
+     * 
+     * @return the value of field 'PageCount'.
+     */
+    public long getPageCount(
+    ) {
+        return this._pageCount;
+    }
+
+    /**
+     * Returns the value of field 'paperback'.
+     * 
+     * @return the value of field 'Paperback'.
+     */
+    public boolean getPaperback(
+    ) {
+        return this._paperback;
+    }
+
+    /**
+     * Returns the value of field 'publisher'.
+     * 
+     * @return the value of field 'Publisher'.
+     */
+    public java.lang.String getPublisher(
+    ) {
+        return this._publisher;
+    }
+
+    /**
+     * Returns the value of field 'subTitle'.
+     * 
+     * @return the value of field 'SubTitle'.
+     */
+    public java.lang.String getSubTitle(
+    ) {
+        return this._subTitle;
+    }
+
+    /**
+     * Returns the value of field 'title'.
+     * 
+     * @return the value of field 'Title'.
+     */
+    public java.lang.String getTitle(
+    ) {
+        return this._title;
+    }
+
+    /**
+     * Returns the value of field 'weight'.
+     * 
+     * @return the value of field 'Weight'.
+     */
+    public double getWeight(
+    ) {
+        return this._weight;
+    }
+
+    /**
+     * Method hasIsbn10.
+     * 
+     * @return true if at least one Isbn10 has been added
+     */
+    public boolean hasIsbn10(
+    ) {
+        return this._has_isbn10;
+    }
+
+    /**
+     * Method hasPageCount.
+     * 
+     * @return true if at least one PageCount has been added
+     */
+    public boolean hasPageCount(
+    ) {
+        return this._has_pageCount;
+    }
+
+    /**
+     * Method hasPaperback.
+     * 
+     * @return true if at least one Paperback has been added
+     */
+    public boolean hasPaperback(
+    ) {
+        return this._has_paperback;
+    }
+
+    /**
+     * Method hasWeight.
+     * 
+     * @return true if at least one Weight has been added
+     */
+    public boolean hasWeight(
+    ) {
+        return this._has_weight;
+    }
+
+    /**
+     * Returns the value of field 'paperback'.
+     * 
+     * @return the value of field 'Paperback'.
+     */
+    public boolean isPaperback(
+    ) {
+        return this._paperback;
+    }
+
+    /**
+     * Sets the value of field 'image'.
+     * 
+     * @param image the value of field 'image'.
+     */
+    public void setImage(
+            final java.lang.String image) {
+        this._image = image;
+    }
+
+    /**
+     * Sets the value of field 'isbn10'.
+     * 
+     * @param isbn10 the value of field 'isbn10'.
+     */
+    public void setIsbn10(
+            final long isbn10) {
+        this._isbn10 = isbn10;
+        this._has_isbn10 = true;
+    }
+
+    /**
+     * Sets the value of field 'isbn13'.
+     * 
+     * @param isbn13 the value of field 'isbn13'.
+     */
+    public void setIsbn13(
+            final java.lang.String isbn13) {
+        this._isbn13 = isbn13;
+    }
+
+    /**
+     * Sets the value of field 'language'.
+     * 
+     * @param language the value of field 'language'.
+     */
+    public void setLanguage(
+            final types.LanguageType language) {
+        this._language = language;
+    }
+
+    /**
+     * Sets the value of field 'pageCount'.
+     * 
+     * @param pageCount the value of field 'pageCount'.
+     */
+    public void setPageCount(
+            final long pageCount) {
+        this._pageCount = pageCount;
+        this._has_pageCount = true;
+    }
+
+    /**
+     * Sets the value of field 'paperback'.
+     * 
+     * @param paperback the value of field 'paperback'.
+     */
+    public void setPaperback(
+            final boolean paperback) {
+        this._paperback = paperback;
+        this._has_paperback = true;
+    }
+
+    /**
+     * Sets the value of field 'publisher'.
+     * 
+     * @param publisher the value of field 'publisher'.
+     */
+    public void setPublisher(
+            final java.lang.String publisher) {
+        this._publisher = publisher;
+    }
+
+    /**
+     * Sets the value of field 'subTitle'.
+     * 
+     * @param subTitle the value of field 'subTitle'.
+     */
+    public void setSubTitle(
+            final java.lang.String subTitle) {
+        this._subTitle = subTitle;
+    }
+
+    /**
+     * Sets the value of field 'title'.
+     * 
+     * @param title the value of field 'title'.
+     */
+    public void setTitle(
+            final java.lang.String title) {
+        this._title = title;
+    }
+
+    /**
+     * Sets the value of field 'weight'.
+     * 
+     * @param weight the value of field 'weight'.
+     */
+    public void setWeight(
+            final double weight) {
+        this._weight = weight;
+        this._has_weight = true;
+    }
+
+}
