@@ -4,4 +4,11 @@
 <fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="object.Book"/>
+<fullyQualifiedTypeName name="object.Categorie"/>
+<fullyQualifiedTypeName name="javax.xml.bind.JAXBContext"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+<fullyQualifiedTypeName name="javax.xml.bind.Marshaller"/>
+<fullyQualifiedTypeName name="org.exolab.castor.util.ObjectFactory"/>
+<fullyQualifiedTypeName name="java.awt.print.Book"/>
 </qualifiedTypeNameHistroy>

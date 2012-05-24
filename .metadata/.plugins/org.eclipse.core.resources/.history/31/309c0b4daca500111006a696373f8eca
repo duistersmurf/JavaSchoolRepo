@@ -1,0 +1,44 @@
+package parser;
+
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.XMLReaderFactory;
+import org.xml.sax.*;
+import java.io.*;
+import java.util.Enumeration;
+import java.util.Vector;
+
+import object.*;
+
+public class Main {
+	
+	 public static void main( String[] argv ){
+		 System.out.println( "Example1:" );
+	      try {
+	         // Create SAX 2 parser...
+	         XMLReader xr = XMLReaderFactory.createXMLReader();
+	         // Set the ContentHandler...
+	         Xmlparsers ex1 = new Xmlparsers();
+	         xr.setContentHandler( ex1 );
+	         System.out.println();
+	         System.out.println("Tag paths located:");
+	         // Parse the file...
+	         xr.parse( new InputSource(new FileReader( "bookshelf2.xml" )) );
+	         System.out.println();
+	         System.out.println("Names located:");
+	         // Display Customer
+	         System.out.println( "Customer Name: " + ex1.getBook() );
+	         // Display all item names to stdout...
+	         System.out.println( "Order Items: " );
+	         String itemName;
+	         Vector categorie = ex1.getCategorie();
+	         Enumeration e = categorie.elements();
+	         while( e.hasMoreElements()){
+	                   itemName = (String) e.nextElement();
+	            System.out.println( itemName );
+	         }
+	      }catch ( Exception e )  {
+	         e.printStackTrace();
+	      }
+	   }
+
+}

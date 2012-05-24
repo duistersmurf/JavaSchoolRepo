@@ -1,0 +1,54 @@
+package parser;
+
+import org.xml.sax.*;
+import org.xml.sax.helpers.*;
+import java.io.*;
+import java.util.Enumeration;
+import java.util.Stack;
+import java.util.Vector;
+
+public class Xmlparsers extends DefaultHandler {
+   
+	private Vector<String> categorie = new Vector<String>();
+	private  Vector<String> book = new Vector<String>();
+	//private Book currentBook;
+	//private Categorie currentCategorie;
+	//private String books;
+	//private String categories;
+	private CharArrayWriter contents = new CharArrayWriter();
+	private Stack<String> tagStack = new Stack<String>();
+   
+	public void startElement( String namespaceURI, String localName, String qName, Attributes attr ) throws SAXException {
+		contents.reset();
+		tagStack.push( localName );
+		System.out.println( "path found: [" + getTagPath() + "]" );
+   }
+   public void endElement( String namespaceURI,String localName,String qName ) throws SAXException {
+	   if ( getTagPath().equals( "bookshelf/categories/category/title" ) ) {
+	    	  categorie.addElement( contents.toString().trim() );
+	   }
+	      else if ( getTagPath().equals( "bookshelf/books/book/title" ) ) {
+		         book.addElement(contents.toString().trim());
+		      } 
+	      // clean up the stack...
+	      tagStack.pop();
+   }
+   public void characters( char[] ch, int start, int length ) throws SAXException {
+      contents.write( ch, start, length );
+   }
+   private String getTagPath( ){
+	      //  build the path string...
+	  String buffer = "";
+	  Enumeration<String> e = tagStack.elements();
+	  while( e.hasMoreElements()){
+	      buffer  = buffer + "/" + (String) e.nextElement();
+	   }
+	  return buffer;
+   }
+	   public Vector<String> getCategorie() {
+	           return categorie;
+	   }
+	   public Vector<String> getBook() {
+	         return book;
+	   }
+}

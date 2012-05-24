@@ -4,15 +4,15 @@
 	xmlns:fn="http://www.w3.org/2006/xpath-functions">
 	<categories>
 		<category>
-			<title><![CDATA[XML]]></title>
-			<subTitle><![CDATA[XML1]]></subTitle>
+			<title>XML</title>
+			<subTitle>XML1</subTitle>
 		</category>
 		<category>
-			<title><![CDATA[Professional java]]></title>
+			<title>Professional java</title>
 			<subTitle><![CDATA[java2]]></subTitle>
 		</category>
 		<category>
-			<title><![CDATA[net]]></title>
+			<title>net</title>
 			<subTitle><![CDATA[net programeren]]></subTitle>
 		</category>
 	</categories>

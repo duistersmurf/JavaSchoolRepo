@@ -1,0 +1,73 @@
+package parser;
+
+import object.Book;
+import object.Categorie;
+
+import org.xml.sax.*;
+import org.xml.sax.helpers.*;
+import java.io.*;
+import java.util.Enumeration;
+import java.util.Stack;
+import java.util.Vector;
+
+public class Xmlparsers extends DefaultHandler {
+   
+	private Stack<String> tagStack = new Stack<String>();
+	private Vector<Categorie> categorie = new Vector<Categorie>();
+	private  Vector<Book> book = new Vector<Book>();
+	private Book currentBook;
+	private Categorie currentCategorie;
+	private String books;
+	private String categories;
+	private CharArrayWriter contents = new CharArrayWriter();
+	
+   
+	public void startElement( String namespaceURI, String localName, String qName, Attributes attr ) throws SAXException {
+		contents.reset();
+		tagStack.push( localName );
+		System.out.println( "path found: [" + getTagPath() + "]" );
+		if ( localName.equals( "categories" ) ) {
+            currentCategorie = new Categorie();
+            categorie.addElement( currentCategorie );
+		}
+		if ( localName.equals( "books" ) ) {
+            currentBook= new Book();
+            book.addElement( currentBook );
+		}
+   }
+   public void endElement( String namespaceURI,String localName,String qName ) throws SAXException {
+	   if ( getTagPath().equals( "bookshelf/categories/category/title" ) ) {
+	    	  //categorie.addElement( contents.toString().trim() );
+		   currentCategorie.title = contents.toString();
+	   }
+	   else if ( getTagPath().equals( "bookshelf/categories/category/subtitle" ) ) {
+		   currentCategorie.subTitle = contents.toString();
+	   }
+	      else if ( getTagPath().equals( "bookshelf/books/book/title" ) ) {
+		         currentBook.title = contents.toString();
+		      } 
+	      else if (getTagPath().equals("bookshelf/books/book/subtitle")){
+	    	  currentBook.subTitle = contents.toString();
+	      }
+	      // clean up the stack...
+	      tagStack.pop();
+   }
+   public void characters( char[] ch, int start, int length ) throws SAXException {
+      contents.write( ch, start, length );
+   }
+   private String getTagPath( ){
+	      //  build the path string...
+	  String buffer = "";
+	  Enumeration<String> e = tagStack.elements();
+	  while( e.hasMoreElements()){
+	      buffer  = buffer + "/" + (String) e.nextElement();
+	   }
+	  return buffer;
+   }
+	   public Vector getCategorie() {
+	           return categorie;
+	   }
+	   public Vector getBook() {
+	         return book;
+	   }
+}

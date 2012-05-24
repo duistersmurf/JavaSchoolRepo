@@ -1,0 +1,63 @@
+package parser;
+
+import org.xml.sax.*;
+import org.xml.sax.helpers.*;
+import java.io.*;
+import java.util.Enumeration;
+import java.util.Stack;
+import java.util.Vector;
+
+public class Xmlparsers extends DefaultHandler {
+   
+	private Stack<String> tagStack = new Stack<String>();
+	private Vector categories = new Vector();
+	private Vector books = new Vector();
+	private CharArrayWriter contents = new CharArrayWriter();
+	   
+	public void startElement( String namespaceURI, String localName, String qName, Attributes attr ) throws SAXException {
+		contents.reset();
+		tagStack.push( localName );
+		System.out.println( "path found: [" + getTagPath() + "]" );
+   }
+   public void endElement( String namespaceURI,String localName,String qName ) throws SAXException {
+	   if ( getTagPath().equals( "/bookshelf/categories/category/title" ) ) {
+		   	categories.addElement(" ");
+	    	  categories.addElement( contents.toString().trim() );
+	   }
+	   else if ( getTagPath().equals( "/bookshelf/categories/category/subTitle" ) ) {
+		   categories.addElement( " " + contents.toString().trim() );
+	   }
+	      else if ( getTagPath().equals( "/bookshelf/books/book/title" ) ) {
+	    	  books.addElement(contents.toString().trim() );
+		      } 
+	      else if ( getTagPath().equals( "/bookshelf/books/book/title" ) ) {
+			   categories.addElement( " " + contents.toString().trim() );
+		   }
+	      else if ( getTagPath().equals( "/bookshelf/books/book/title" ) ) {
+			   categories.addElement( " " + contents.toString().trim() );
+		   }
+	      else if ( getTagPath().equals( "/bookshelf/books/book/title" ) ) {
+			   categories.addElement( " " + contents.toString().trim() );
+		   }
+	      // clean up the stack...
+	      tagStack.pop();
+   }
+   public void characters( char[] ch, int start, int length ) throws SAXException {
+      contents.write( ch, start, length );
+   }
+   private String getTagPath( ){
+	      //  build the path string...
+	  String buffer = "";
+	  Enumeration e = tagStack.elements();
+	  while( e.hasMoreElements()){
+	      buffer  = buffer + "/" + (String) e.nextElement();
+	   }
+	  return buffer;
+   }
+	   public Vector getCategorie() {
+	           return categories;
+	   }
+	   public Vector getBook() {
+	         return books;
+	   }
+}
