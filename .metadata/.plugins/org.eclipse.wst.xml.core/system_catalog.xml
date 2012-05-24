@@ -105,7 +105,7 @@
   <uri name="urn:oasis:names:tc:entity:xmlns:xml:catalog" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.wst.standard.schemas_1.0.401.v201108151912.jar!/xsd/xmlcatalog11.xsd"/>
   <uri name="http://www.w3.org/TR/html4/loose.dtd" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.wst.standard.schemas_1.0.401.v201108151912.jar!/dtds/loose.dtd"/>
   <uri name="http://www.w3.org/TR/html4/strict.dtd" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.wst.standard.schemas_1.0.401.v201108151912.jar!/dtds/strict.dtd"/>
-  <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.xsd_2.7.1.v20120130-0943.jar!/cache/www.w3.org/2001/xml.xsd"/>
-  <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.xsd_2.7.1.v20120130-0943.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
+  <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.xsd_2.7.0.v20110606-0949.jar!/cache/www.w3.org/2001/xml.xsd"/>
+  <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.xsd_2.7.0.v20110606-0949.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
   <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/C:/Program Files/eclipse/plugins/org.eclipse.wst.xsl.core_1.1.100.v201102270516.jar!/xslt-schemas/xinclude.xsd"/>
 </catalog>

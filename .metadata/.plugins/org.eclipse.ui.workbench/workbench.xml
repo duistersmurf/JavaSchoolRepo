@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="66" version="2.0">
+<workbench progressCount="46" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="75" y="75">
 <fastViewData fastViewLocation="1024"/>
@@ -47,7 +47,7 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xmlparseroef/src/parser/Xmlparsers.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3004" selectionTopPixel="502"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="bookshelf2.xml" partName="bookshelf2.xml" path="C:/Users/Ruwan/workspace_school/JavaSchoolRepo/xmlparseroef/src/parser/bookshelf2.xml" title="bookshelf2.xml" tooltip="xmlparseroef/src/parser/bookshelf2.xml" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="bookshelf2.xml" partName="bookshelf2.xml" path="C:/Users/Duistersmurf/schoolworkspace/JavaSchoolRepo/xmlparseroef/src/parser/bookshelf2.xml" title="bookshelf2.xml" tooltip="xmlparseroef/src/parser/bookshelf2.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xmlparseroef/src/parser/bookshelf2.xml"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/Ruwan/workspace_school/JavaSchoolRepo/xmlparseroef/src/parser/Main.java" title="Main.java" tooltip="xmlparseroef/src/parser/Main.java" workbook="DefaultEditorWorkbook">
@@ -97,10 +97,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (8 items)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -410,6 +406,7 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/xmlparseroef/src/parser/bookshelf.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/xmlparseroef/src/parser/bookshelf2.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/xmlparseroef/src/parser/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/xmlparseroef/src/parser/bookshelf2.xml"/>
 </editors>
 <item historyLabel=".project" index="0">
 <position info="not_deleted" x="0" y="0"/>
@@ -501,11 +498,11 @@
 <item historyLabel="Xmlparsers.java" index="8">
 <position info="not_deleted" x="1373" y="0"/>
 </item>
-<item active="true" historyLabel="bookshelf2.xml" index="10">
+<item historyLabel="bookshelf2.xml" index="10">
 <position info="not_deleted" x="233" y="26"/>
 </item>
-<item historyLabel="Xmlparsers.java" index="8">
-<position info="not_deleted" x="3004" y="0"/>
+<item active="true" historyLabel="bookshelf2.xml" index="12">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
