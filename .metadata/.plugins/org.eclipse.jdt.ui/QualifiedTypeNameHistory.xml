@@ -10,5 +10,8 @@
 <fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
 <fullyQualifiedTypeName name="javax.xml.bind.Marshaller"/>
 <fullyQualifiedTypeName name="org.exolab.castor.util.ObjectFactory"/>
+<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.awt.print.Book"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
 </qualifiedTypeNameHistroy>

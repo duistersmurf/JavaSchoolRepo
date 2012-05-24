@@ -1,4 +1,3 @@
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /*
@@ -330,7 +329,6 @@ public class Book implements java.io.Serializable {
      * 
      * @param pageCount the value of field 'pageCount'.
      */
-    @XmlElement
     public void setPageCount(
             final long pageCount) {
         this._pageCount = pageCount;
@@ -373,7 +371,6 @@ public class Book implements java.io.Serializable {
      * 
      * @param title the value of field 'title'.
      */
-    @XmlElement
     public void setTitle(
             final java.lang.String title) {
         this._title = title;

@@ -1,0 +1,43 @@
+
+
+import java.io.File;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import JAXBGSOSoef.jaxb.*;
+
+public class Marchalling {
+	
+	public static void main(String[] args) {
+		 
+		  Book b = new Book();
+		  b.setId(100);
+		  b.setName("mkyong");
+		  b.setAge(29);
+	 
+		  try {
+	 
+			File file = new File("C:\\file.xml");
+			JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
+			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+	 
+			// output pretty printed
+			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true); 
+			jaxbMarshaller.marshal(customer, file);
+			jaxbMarshaller.marshal(customer, System.out);
+	 
+		      } catch (JAXBException e) {
+			e.printStackTrace();
+		      }
+	 
+		}
+	}
+
+	/*Marshaller marshaller = null;
+	//de package die je bij je generator hebt opgegeven!!!
+	JAXBContext jaxbContext = JAXBContext.newInstance(ObjectFactory.class.getPackage().getName());
+	marshaller = jaxbContext.createMarshaller();
+	MijnDing ding = mijnDingFactory.createMijnDing();
+	ByteArrayOutputStream bin = new ByteArrayOutputStream();
+	marshaller.marshal(ding, bin);
+	String jaxbMessage = bin.toString(this.encoding);*/
