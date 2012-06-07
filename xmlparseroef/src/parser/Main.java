@@ -23,8 +23,8 @@ public class Main {
 	         System.out.println();
 	         System.out.println("Tag paths located:");
 	         // Parse the file...
-	        // xr.parse( new InputSource(new FileReader( "C:\\Users\\Ruwan\\workspace_school\\JavaSchoolRepo\\xmlparseroef\\src\\parser\\bookshelf2.xml" )) );
-	         xr.parse( new InputSource(new FileReader( "C:\\Users\\Duistersmurf\\schoolworkspace\\JavaSchoolRepo\\xmlparseroef\\bin\\parser\\bookshelf2.xml" )) );
+	         xr.parse( new InputSource(new FileReader( "C:\\Users\\Ruwan\\workspace_school\\JavaSchoolRepo\\xmlparseroef\\src\\parser\\bookshelf2.xml" )) );
+	         //xr.parse( new InputSource(new FileReader( "C:\\Users\\Duistersmurf\\schoolworkspace\\JavaSchoolRepo\\xmlparseroef\\bin\\parser\\bookshelf2.xml" )) );
 	         System.out.println();
 	         System.out.println("Names located:");
 	         // Display Customer

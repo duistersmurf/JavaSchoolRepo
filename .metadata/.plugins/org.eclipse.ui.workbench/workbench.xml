@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="30" version="2.0">
+<workbench progressCount="35" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="75" y="75">
 <fastViewData fastViewLocation="1024"/>
@@ -22,8 +22,9 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" itemType="typePlaceholder" x="104" y="22"/>
-<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ant.ui.internal.editor.AntEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -40,34 +41,25 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Xmlparsers.java" partName="Xmlparsers.java" path="C:/Users/Duistersmurf/schoolworkspace/JavaSchoolRepo/xmlparseroef/src/parser/Xmlparsers.java" title="Xmlparsers.java" tooltip="xmlparseroef/src/parser/Xmlparsers.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="marshalling.java" partName="marshalling.java" path="C:/Users/Ruwan/workspace_school/JavaSchoolRepo/JAXBgsos/src/main/marshalling.java" title="marshalling.java" tooltip="JAXBgsos/src/main/marshalling.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JAXBgsos/src/main/marshalling.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2177" selectionTopPixel="579"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Unmarshalling.java" partName="Unmarshalling.java" path="C:/Users/Ruwan/workspace_school/JavaSchoolRepo/JAXBgsos/src/main/Unmarshalling.java" title="Unmarshalling.java" tooltip="JAXBgsos/src/main/Unmarshalling.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JAXBgsos/src/main/Unmarshalling.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="450" selectionTopPixel="186"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Xmlparsers.java" partName="Xmlparsers.java" path="C:/Users/Ruwan/workspace_school/JavaSchoolRepo/xmlparseroef/src/parser/Xmlparsers.java" title="Xmlparsers.java" tooltip="xmlparseroef/src/parser/Xmlparsers.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xmlparseroef/src/parser/Xmlparsers.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1196" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1721" selectionTopPixel="285"/>
 </editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="bookshelf2.xml" partName="bookshelf2.xml" path="C:/Users/Duistersmurf/schoolworkspace/JavaSchoolRepo/xmlparseroef/src/parser/bookshelf2.xml" title="bookshelf2.xml" tooltip="xmlparseroef/src/parser/bookshelf2.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xmlparseroef/src/parser/bookshelf2.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/Duistersmurf/schoolworkspace/JavaSchoolRepo/xmlparseroef/src/parser/Main.java" title="Main.java" tooltip="xmlparseroef/src/parser/Main.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/Ruwan/workspace_school/JavaSchoolRepo/xmlparseroef/src/parser/Main.java" title="Main.java" tooltip="xmlparseroef/src/parser/Main.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xmlparseroef/src/parser/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1894" selectionTopPixel="200"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Categorie.java" partName="Categorie.java" path="C:/Users/Duistersmurf/schoolworkspace/JavaSchoolRepo/xmlparseroef/src/object/Categorie.java" title="Categorie.java" tooltip="xmlparseroef/src/object/Categorie.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/xmlparseroef/src/object/Categorie.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="322" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Marchalling.java" partName="Marchalling.java" path="C:/Users/Duistersmurf/schoolworkspace/JavaSchoolRepo/JAXBGSOSoef/jaxb/Marchalling.java" title="Marchalling.java" tooltip="JAXBGSOSoef/jaxb/Marchalling.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JAXBGSOSoef/jaxb/Marchalling.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="47" selectionOffset="339" selectionTopPixel="20"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Unmarshalling.java" partName="Unmarshalling.java" path="C:/Users/Duistersmurf/schoolworkspace/JavaSchoolRepo/JAXBGSOSoef/jaxb/Unmarshalling.java" title="Unmarshalling.java" tooltip="JAXBGSOSoef/jaxb/Unmarshalling.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JAXBGSOSoef/jaxb/Unmarshalling.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="310" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="336"/>
 </editor>
 </editors>
 <views>
@@ -81,9 +73,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>&#x0A;<category IMemento.internal.id="Java Build Path Problems (1 item)"/>
-</expanded>
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.resourceField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
 <columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -113,6 +103,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings (23 items)"/>
+<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="186"/>
@@ -177,7 +169,7 @@
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -243,22 +235,31 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5e2e732c" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5e2e732c" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.69860893" ratioLeft="452" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<info folder="true" part="bottomRight" ratio="0.69860893" ratioLeft="452" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
@@ -269,7 +270,8 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -277,9 +279,12 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -412,166 +417,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBGSOSoef/src/mainpackage/Unmarshalling.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBGSOSoef/src/mainpackage/Marchalling.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/xmlparseroef/src/object/Categorie.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBGSOSoef/jaxb/mainpackage/Unmarshalling.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBGSOSoef/jaxb/mainpackage/Marchalling.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBGSOSoef/jaxb/Marchalling.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBGSOSoef/jaxb/Unmarshalling.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBGSOSoef/jaxb/Books.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBGSOSoef/jaxb/Book.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/xmlparseroef/src/object/Book.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/xmlparseroef/src/parser/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBgsos/src/main/marshalling.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBgsos/src/generate/BookshelfType.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JAXBgsos/src/main/Unmarshalling.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=JAXBgsos/lib\/eclipselink.jar&lt;org.eclipse.persistence.jaxb(JAXBUnmarshaller.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/JAXBgsos/books.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" path="/JAXBgsos/books.xsd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/xmlparseroef/src/parser/Xmlparsers.java"/>
 </editors>
-<item historyLabel="Unmarshalling.java" index="0">
-<position info="not_deleted" x="739" y="0"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="0">
-<position info="not_deleted" x="282" y="0"/>
-</item>
-<item historyLabel="Marchalling.java" index="1">
-<position info="not_deleted" x="183" y="0"/>
+<item historyLabel="BookshelfType.java" index="2">
+<position info="not_deleted" x="14540" y="0"/>
 </item>
 <item historyLabel="Unmarshalling.java" index="3">
-<position info="not_deleted" x="284" y="0"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="3">
-<position info="not_deleted" x="282" y="0"/>
-</item>
-<item historyLabel="Marchalling.java" index="4">
-<position info="not_deleted" x="211" y="0"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="3">
-<position info="not_deleted" x="282" y="0"/>
-</item>
-<item historyLabel="Marchalling.java" index="4">
-<position info="not_deleted" x="211" y="0"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="3">
-<position info="not_deleted" x="282" y="0"/>
-</item>
-<item historyLabel="Categorie.java" index="2">
-<position info="not_deleted" x="322" y="0"/>
-</item>
-<item historyLabel="Marchalling.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="287" y="0"/>
-</item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="444" y="4"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="444" y="4"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="313" y="0"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="456" y="59"/>
-</item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="444" y="4"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="456" y="59"/>
-</item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="772" y="0"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="456" y="59"/>
-</item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="772" y="0"/>
-</item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="930" y="0"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="456" y="59"/>
-</item>
-<item historyLabel="Unmarshalling.java" index="6">
 <position/>
 </item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="310" y="0"/>
+<item historyLabel="BookshelfType.java" index="2">
+<position info="not_deleted" x="14540" y="0"/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="930" y="0"/>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="1476" y="72"/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="386" y="0"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="361" y="8"/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="628" y="35"/>
+<item historyLabel="BookshelfType.java" index="2">
+<position info="not_deleted" x="14540" y="0"/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="363" y="0"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="628" y="35"/>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="1476" y="72"/>
 </item>
-<item historyLabel="Books.java" index="7">
-<position info="not_deleted" x="2923" y="0"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="1170" y="0"/>
 </item>
-<item historyLabel="Book.java" index="8">
-<position info="not_deleted" x="102" y="0"/>
+<item historyLabel="JAXBUnmarshaller.class" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Books.java" index="7">
-<position info="not_deleted" x="2923" y="0"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="1105" y="0"/>
 </item>
-<item historyLabel="Book.java" index="8">
-<position info="not_deleted" x="694" y="0"/>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="1647" y="0"/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="628" y="35"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="1163" y="0"/>
 </item>
-<item historyLabel="Book.java" index="8">
-<position info="not_deleted" x="694" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Book.java" index="8">
-<position info="not_deleted" x="7627" y="8"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="790" y="0"/>
 </item>
-<item historyLabel="Book.java" index="8">
-<position info="not_deleted" x="7609" y="0"/>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="1647" y="0"/>
 </item>
-<item historyLabel="Book.java" index="8">
-<position info="not_deleted" x="6534" y="0"/>
+<item historyLabel="books.xsd" index="5">
+<position info="not_deleted" x="40" y="0"/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="628" y="35"/>
+<item historyLabel="books.xsd" index="6">
+<position info="not_deleted" x="40" y="0"/>
 </item>
-<item historyLabel="Book.java" index="8">
-<position info="not_deleted" x="6534" y="0"/>
+<item historyLabel="marshalling.java" index="1">
+<position/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="628" y="35"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="790" y="0"/>
 </item>
-<item historyLabel="Book.java" index="9">
-<position info="not_deleted" x="561" y="94"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="666" y="0"/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="628" y="35"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="759" y="0"/>
 </item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="310" y="0"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="757" y="0"/>
 </item>
-<item historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="310" y="0"/>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="1100" y="0"/>
 </item>
-<item historyLabel="Marchalling.java" index="5">
-<position info="not_deleted" x="339" y="47"/>
+<item historyLabel="Xmlparsers.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Unmarshalling.java" index="6">
-<position info="not_deleted" x="310" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="825" y="0"/>
+</item>
+<item historyLabel="marshalling.java" index="1">
+<position/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="1105" y="0"/>
+</item>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="1978" y="5"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="513" y="42"/>
+</item>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="2040" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="513" y="42"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="991" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="957" y="0"/>
+</item>
+<item historyLabel="books.xsd" index="6">
+<position info="not_deleted" x="40" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="957" y="0"/>
+</item>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="2040" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="959" y="0"/>
+</item>
+<item historyLabel="Xmlparsers.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="959" y="0"/>
+</item>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="2177" y="0"/>
+</item>
+<item historyLabel="Xmlparsers.java" index="7">
+<position info="not_deleted" x="1721" y="0"/>
+</item>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="2177" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="759" y="0"/>
+</item>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="2177" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="450" y="0"/>
+</item>
+<item historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="2177" y="0"/>
+</item>
+<item historyLabel="Unmarshalling.java" index="3">
+<position info="not_deleted" x="450" y="0"/>
+</item>
+<item active="true" historyLabel="marshalling.java" index="1">
+<position info="not_deleted" x="2177" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -579,6 +582,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -587,12 +593,31 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Book.java" tooltip="JAXBGSOSoef/jaxb/Book.java">
-<persistable path="/JAXBGSOSoef/jaxb/Book.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="xmlparseroef/src/parser/Main.java">
+<persistable path="/xmlparseroef/src/parser/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Xmlparsers.java" tooltip="xmlparseroef/src/parser/Xmlparsers.java">
+<persistable path="/xmlparseroef/src/parser/Xmlparsers.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="books.xsd" tooltip="JAXBgsos/books.xsd">
+<persistable path="/JAXBgsos/books.xsd"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="JAXBUnmarshaller.class" tooltip="org.eclipse.persistence.jaxb.JAXBUnmarshaller">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JAXBgsos/lib\/eclipselink.jar&lt;org.eclipse.persistence.jaxb(JAXBUnmarshaller.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Unmarshalling.java" tooltip="JAXBgsos/src/main/Unmarshalling.java">
+<persistable path="/JAXBgsos/src/main/Unmarshalling.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BookshelfType.java" tooltip="JAXBgsos/src/generate/BookshelfType.java">
+<persistable path="/JAXBgsos/src/generate/BookshelfType.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="marshalling.java" tooltip="JAXBgsos/src/main/marshalling.java">
+<persistable path="/JAXBgsos/src/main/marshalling.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Books.java" tooltip="JAXBGSOSoef/jaxb/Books.java">
 <persistable path="/JAXBGSOSoef/jaxb/Books.java"/>
@@ -617,24 +642,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Book.java" tooltip="xmlparseroef/src/object/Book.java">
 <persistable path="/xmlparseroef/src/object/Book.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="xmlparseroef/src/parser/Main.java">
-<persistable path="/xmlparseroef/src/parser/Main.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="bookshelf2.xml" tooltip="xmlparseroef/src/parser/bookshelf2.xml">
-<persistable path="/xmlparseroef/src/parser/bookshelf2.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="bookshelf.xml" tooltip="xmlparseroef/src/parser/bookshelf.xml">
-<persistable path="/xmlparseroef/src/parser/bookshelf.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Xmlparsers.java" tooltip="xmlparseroef/src/parser/Xmlparsers.java">
-<persistable path="/xmlparseroef/src/parser/Xmlparsers.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="books.out.xml" tooltip="GSos/build/books.out.xml">
-<persistable path="/GSos/build/books.out.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor" name="books.xsd" tooltip="GSos/build/books.xsd">
-<persistable path="/GSos/build/books.xsd"/>
 </file>
 </mruList>
 </workbench>

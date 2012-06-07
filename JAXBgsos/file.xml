@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookshelf xmlns="http://www.prolector.org/schemas/books">
+   <categories>
+      <category name="TestCategory"/>
+   </categories>
+   <books>
+      <book>
+         <title>Test</title>
+         <isbn10>1235467184</isbn10>
+         <isbn13>978-1234567890</isbn13>
+         <language>Nederlands</language>
+         <paperback>false</paperback>
+         <pageCount>200</pageCount>
+         <publisher>Donno</publisher>
+         <image>Afbeelding 15</image>
+         <weight>0.0</weight>
+      </book>
+   </books>
+</bookshelf>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.prolector.org/schemas/books"
+	xmlns:tns="http://www.prolector.org/schemas/books" elementFormDefault="qualified">
+	<element name="bookshelf" type="tns:bookshelfType" />
+	<complexType name="bookshelfType">
+		<annotation>
+			<documentation>Beschrijft de boekenplank</documentation>
+		</annotation>
+		<sequence>
+			<element name="categories">
+				<complexType>
+					<sequence>
+						<element name="category" type="tns:categoryType"
+							minOccurs="1" maxOccurs="unbounded" />
+					</sequence>
+				</complexType>
+			</element>
+			<element name="books">
+				<complexType>
+					<sequence>
+						<element name="book" minOccurs="1" maxOccurs="unbounded">
+							<complexType>
+								<annotation>
+									<documentation>Beschrijft een boek</documentation>
+								</annotation>
+								<sequence>
+									<element name="title" type="string" />
+									<element name="subTitle" type="string" minOccurs="0" maxOccurs="1" nillable="false" />
+									<element name="isbn10" type="tns:isbn10Type" />
+									<element name="isbn13" type="tns:isbn13Type" />
+									<element name="language" type="tns:languageType" />
+									<element name="paperback" type="boolean" />
+									<element name="pageCount" type="positiveInteger" />
+									<element name="publisher" type="string" />
+									<element name="image" type="anyURI" />
+									<element name="weight" type="double"/>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+				<unique name="uniqueIsbn10">
+					<selector xpath="isbn10" />
+					<field xpath="." />
+				</unique>
+			</element>
+		</sequence>
+	</complexType>
+<!--
+todo selector unieke namen category
+
+				<unique name="uniqueIsbn10">
+					<selector xpath="isbn10" />
+					<field xpath="." />
+				</unique>
+-->
+	<complexType name="categoryType">
+
+		<sequence>
+			<element name="category" type="tns:categoryType" minOccurs="0"
+				maxOccurs="unbounded" />
+		</sequence>
+
+		<attribute name="name" use="required" type="string" />
+	</complexType>
+
+	<simpleType name="languageType">
+		<restriction base="string">
+			<enumeration value="English"></enumeration>
+			<enumeration value="Nederlands"></enumeration>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="isbn10Type">
+		<restriction base="positiveInteger">
+			<pattern value="[\d]{10}" />
+		</restriction>
+	</simpleType>
+	<simpleType name="isbn13Type">
+		<restriction base="string">
+			<pattern value="978-[\d]{10}" />
+		</restriction>
+	</simpleType>
+
+</schema>

@@ -17,7 +17,7 @@ public class Xmlparsers extends DefaultHandler {
 	public void startElement( String namespaceURI, String localName, String qName, Attributes attr ) throws SAXException {
 		contents.reset();
 		tagStack.push( localName );
-		System.out.println( "path found: [" + getTagPath() + "]" );
+		//System.out.println( "path found: [" + getTagPath() + "]" );
    }
    public void endElement( String namespaceURI,String localName,String qName ) throws SAXException {
 	   if ( getTagPath().equals( "/bookshelf/categories/category/title" ) ) {
@@ -42,6 +42,7 @@ public class Xmlparsers extends DefaultHandler {
 		   }
 	      // clean up the stack...
 	      tagStack.pop();
+	      
    }
    public void characters( char[] ch, int start, int length ) throws SAXException {
       contents.write( ch, start, length );
